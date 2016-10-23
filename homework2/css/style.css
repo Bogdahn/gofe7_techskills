@@ -1,12 +1,10 @@
-
-@import "fonts.css";
-
 body{
   margin: 0;
 }
 .wrapper{
   width: 1024px;
   height: 1024px;
+  font-family: "Tahoma", Geneva, sans-serif;
   background-image: url(../images/bg-big.jpg);
   margin: auto;
 }
