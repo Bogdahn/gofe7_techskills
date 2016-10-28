@@ -1,3 +1,4 @@
+/*style reset*/
 @import "reset.css";
 
 .clr{
@@ -10,18 +11,21 @@
 }
 
 /*HTML*/
-html{
-  font: 13.33px "Open Sans",Arial,sans-serif;
-  color: #2c2c2c;
-}
+html {
+  font: 14px "Open Sans",Arial,sans-serif;
+  /*color: #2c2c2c;*/
+  /*background-color: #f9f9f9;*/
+  }
 body{
   background-color: #f9f9f9;
+  /*background-color: white;*/
 }
 .wrapper{
   width: 966px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
   margin: auto;
   padding: 50px 48px 0 46px;
+  background-color: white;
 }
 a{
   text-decoration: none;
@@ -30,6 +34,7 @@ a{
 /*HEADER*/
 header, .logo{
   margin-bottom: 40px;
+  /*margin-top: 50px;*/
 }
 .header_nav{
   width: 966px;
@@ -107,11 +112,11 @@ main{
   width: 678px;
 }
 [alt="Bicycle"]{
-  border: 1px solid #c8c8c8;
-  padding-left: 88px;
+  border: 0px solid #c8c8c8;
+  padding-left: 0px;
   padding-right: 88px;
-  padding-top: 66px;
-  padding-bottom: 45px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-bottom: 40px;
 }
 .main_article>p{
